@@ -1,0 +1,42 @@
+{
+    "q-agent-notifier": ["neutron_hosts"],
+    "q-plugin": ["neutron_hosts"],
+
+    "q-l3-plugin": ["neutron_hosts"],
+    "q-dhcp-notifer": ["neutron_hosts"],
+    "q-firewall-plugin": ["neutron_hosts"],
+    "q-metering-plugin": ["neutron_hosts"],
+    "l3_agent": ["neutron_hosts"],
+    "dhcp_agent": ["neutron_hosts"],
+    "vpn_agent": ["neutron_hosts"],
+    "metering_agent": ["neutron_hosts"],
+    "ipsec_driver": ["neutron_hosts"],
+    "ipsec_agent": ["neutron_hosts"],
+    "q-lbaas-process-on-host": ["neutron_hosts"],
+    "lbaas_process_on_host_agent": ["neutron_hosts"],
+    "n-lbaas-plugin": ["neutron_hosts"],
+    "n-lbaas_agent": ["neutron_hosts"],
+
+    "q-agent-notifier-l2population-update": ["neutron_hosts"],
+    "q-agent-notifier-tunnel-update": ["neutron_hosts"],
+
+    "q-agent-notifier-network-delete": ["neutron_hosts"],
+    "q-agent-notifier-network-create": ["neutron_hosts"],
+    "q-agent-notifier-network-update": ["neutron_hosts"],
+
+    "q-agent-notifier-port-create": ["neutron_hosts"],
+    "q-agent-notifier-port-update": ["neutron_hosts"],
+    "q-agent-notifier-port-delete": ["neutron_hosts"],
+
+    "q-agent-notifier-security_group-create": ["neutron_hosts"],
+    "q-agent-notifier-security_group-update": ["neutron_hosts"],
+    "q-agent-notifier-security_group-delete": ["neutron_hosts"],
+
+    "q-agent-notifier-router-create": ["neutron_hosts"],
+    "q-agent-notifier-router-update": ["neutron_hosts"],
+    "q-agent-notifier-router-delete": ["neutron_hosts"],
+
+    "notifications-info": ["ceilometer_host"],
+    "notifications-error": ["ceilometer_host"],
+    "metering": ["ceilometer_host"]
+}

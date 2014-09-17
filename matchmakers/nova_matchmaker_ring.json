@@ -1,0 +1,13 @@
+{
+    "conductor": ["controller1"],
+    "scheduler": ["controller1"],
+    "network": ["controller1"],
+    "cert": ["controller1"],
+    "console": ["controller1"],
+    "consoleauth": ["controller1"],
+    "compute": ["computer1"],
+
+    "metering": ["ceilometer_host"],
+    "notifications-info": ["ceilometer_host"],
+    "notifications-error": ["ceilometer_host"]
+}

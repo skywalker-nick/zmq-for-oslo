@@ -1,0 +1,6 @@
+{
+    "metering": ["ceilometer_host"],
+    "notifications-info": ["ceilometer_host"],
+    "notifications-error": ["ceilometer_host"],
+    "alarm_notifier": ["ceilometer_host"]
+}
