@@ -12,7 +12,7 @@ In Folsom, OpenStack introduces an optional messaging system using ZeroMQ.  For 
 
 Currently (in Juno cycle), ZeroMQ is one of the RPC backend drivers in oslo.messaging. In the coming Juno release, as almost all the core projects in OpenStack have switched to oslo.messaging, ZeroMQ can be the only RPC driver across the OpenStack cluster. This document provides deployment information for this driver in oslo.messaging.
 
-Other than AMQP-based drivers, like RabbitMQ or Qpid, ZeroMQ doesn¡¯t have any central brokers in oslo.messaging, instead, each host (running OpenStack services) is both ZeroMQ client and server. As a result, each host needs to listen to a certain TCP port for incoming connections and directly connect to other hosts simultaneously.
+Other than AMQP-based drivers, like RabbitMQ or Qpid, ZeroMQ doesn't have any central brokers in oslo.messaging, instead, each host (running OpenStack services) is both ZeroMQ client and server. As a result, each host needs to listen to a certain TCP port for incoming connections and directly connect to other hosts simultaneously.
 
 Topics are used to identify the destination for a ZeroMQ RPC call. There are two types of topics, bare topics and directed topics. Bare topics look like 'compute', while directed topics look like 'compute.machine1'.
 
