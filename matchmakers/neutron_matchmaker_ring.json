@@ -17,6 +17,9 @@
     "n-lbaas-plugin": ["neutron_hosts"],
     "n-lbaas_agent": ["neutron_hosts"],
 
+    "N/A": ["neutron_hosts"],
+    "zmq_replies": ["neutron_hosts"],
+
     "q-agent-notifier-l2population-update": ["neutron_hosts"],
     "q-agent-notifier-tunnel-update": ["neutron_hosts"],
 
