@@ -16,6 +16,32 @@ Other than AMQP-based drivers, like RabbitMQ or Qpid, ZeroMQ doesn't have any ce
 
 Topics are used to identify the destination for a ZeroMQ RPC call. There are two types of topics, bare topics and directed topics. Bare topics look like 'compute', while directed topics look like 'compute.machine1'.
 
+Deployment
+===========
+
+Assuming the following systems as a goal.
+
+    +--------+
+    | Client |
+    +----+---+
+         |   
+    -----+---------+-------------------+-----------
+                   |                   |   
+          +--------+--------+  +-------+---------+
+          | Controller Node |  | Compute Node    |
+          |  Nova           |  |  Neutron        |
+          |   ZMQ-receiver  |  |   L2-agent      |
+          |  Keystone       |  |   ZMQ-receiver  |
+          |  Glance         |  |  Nova           |
+          |  Neutron        |  |   nova-compute  |
+          |   ZMQ-receiver  |  |   ZMQ-receiver  |
+          |  Cinder         |  |  Ceilometer     |
+          |   ZMQ-receiver  |  |   compute-agent |
+          |  Ceilometer     |  +-----------------+
+          |   ZMQ-receiver  |
+          |  Horizon        |
+          +-----------------+
+
 Configuration
 ==============
 
