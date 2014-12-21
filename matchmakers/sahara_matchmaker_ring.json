@@ -1,5 +1,5 @@
 {
-    "engine": ["heat_host"],
+    "sahara-ops": ["sahara_host"],
 
     "metering": ["ceilometer_host"],
     "notifications-info": ["ceilometer_host"],
