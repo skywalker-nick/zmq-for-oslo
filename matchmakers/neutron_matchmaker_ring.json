@@ -21,6 +21,7 @@
     "q-agent-notifier-port-update": ["neutron_hosts"],
     "q-agent-notifier-security_group-update": ["neutron_hosts"],
     "q-agent-notifier-dvr-update": ["neutron_hosts"],
+    "q-agent-notifier-tunnel-update": ["neutron_hosts"],
 
     "notifications-info": ["ceilometer_host"],
     "notifications-error": ["ceilometer_host"],
