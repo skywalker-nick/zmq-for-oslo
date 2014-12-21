@@ -87,7 +87,7 @@ To set the MatchMaker class, use option 'rpc_zmq_matchmaker' in [DEFAULT] of eac
 
         rpc_zmq_matchmaker = oslo.messaging._drivers.matchmaker_ring.MatchMakerRing
         or
-        rpc_zmq_matchmaker = oslo.messaging._drivers.matchmaker_ring.MatchMakerRedis
+        rpc_zmq_matchmaker = oslo.messaging._drivers.matchmaker_redis.MatchMakerRedis
 
 To specify the ring file for MatchMakerRing, use option 'ringfile' in [matchmaker_ring] of each project.
 

@@ -39,6 +39,8 @@
     "q-agent-notifier-router-update": ["neutron_hosts"],
     "q-agent-notifier-router-delete": ["neutron_hosts"],
 
+    "q-agent-notifier-dvr-update": ["neutron_hosts"],
+
     "notifications-info": ["ceilometer_host"],
     "notifications-error": ["ceilometer_host"],
     "metering": ["ceilometer_host"]
