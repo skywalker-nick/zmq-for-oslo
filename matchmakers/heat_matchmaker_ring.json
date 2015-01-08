@@ -1,7 +1,4 @@
 {
-    "engine": ["heat_host"],
-
-    "metering": ["ceilometer_host"],
-    "notifications-info": ["ceilometer_host"],
-    "notifications-error": ["ceilometer_host"]
+    "engine": ["heat_hosts"],
+    "zmq_replies": ["heat_hosts"]
 }

@@ -1,10 +1,7 @@
 {
-    "cinder-scheduler": ["controller1"],
-    "cinder-volume": ["controller1"],
-    "cinder-backup": ["controller1"], 
-
-    "notifications": ["ceilometer_host"],
-    "notifications-error": ["ceilometer_host"],
-    "notifications-info": ["ceilometer_host"]
+    "cinder-scheduler": ["cinder_hosts"],
+    "cinder-volume": ["cinder_hosts"],
+    "cinder-backup": ["cinder_hosts"],
+    "zmq_replies": ["cinder_hosts"]
 }
 

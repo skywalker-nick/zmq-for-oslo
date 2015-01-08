@@ -1,6 +1,5 @@
 {
     "q-plugin": ["neutron_hosts"],
-
     "q-l3-plugin": ["neutron_hosts"],
     "q-firewall-plugin": ["neutron_hosts"],
     "q-metering-plugin": ["neutron_hosts"],
@@ -13,17 +12,11 @@
     "cisco_csr_ipsec_agent": ["neutron_hosts"],
     "n-lbaas-plugin": ["neutron_hosts"],
     "n-lbaas_agent": ["neutron_hosts"],
-
-    "zmq_replies": ["neutron_hosts"],
-
     "q-agent-notifier-l2population-update": ["neutron_hosts"],
     "q-agent-notifier-network-delete": ["neutron_hosts"],
     "q-agent-notifier-port-update": ["neutron_hosts"],
     "q-agent-notifier-security_group-update": ["neutron_hosts"],
     "q-agent-notifier-dvr-update": ["neutron_hosts"],
     "q-agent-notifier-tunnel-update": ["neutron_hosts"],
-
-    "notifications-info": ["ceilometer_host"],
-    "notifications-error": ["ceilometer_host"],
-    "metering": ["ceilometer_host"]
+    "zmq_replies": ["neutron_hosts"]
 }

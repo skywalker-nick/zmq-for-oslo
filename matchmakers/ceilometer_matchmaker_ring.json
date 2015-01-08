@@ -1,7 +1,7 @@
 {
-    "metering": ["ceilometer_host"],
-    "notifications-info": ["ceilometer_host"],
-    "notifications-error": ["ceilometer_host"],
-    "alarm_notifier": ["ceilometer_host"],
-    "alarm_partition_coordination": ["ceilometer_host"]
+    "metering": ["ceilometer_hosts"],
+    "notifications-info": ["ceilometer_hosts"],
+    "notifications-error": ["ceilometer_hosts"],
+    "alarm_notifier": ["ceilometer_hosts"],
+    "alarm_partition_coordination": ["ceilometer_hosts"]
 }

@@ -1,13 +1,10 @@
 {
-    "conductor": ["controller1"],
-    "scheduler": ["controller1"],
-    "network": ["controller1"],
-    "cert": ["controller1"],
-    "console": ["controller1"],
-    "consoleauth": ["controller1"],
-    "compute": ["computer1"],
-
-    "metering": ["ceilometer_host"],
-    "notifications-info": ["ceilometer_host"],
-    "notifications-error": ["ceilometer_host"]
+    "conductor": ["nova_hosts"],
+    "scheduler": ["nova_hosts"],
+    "network": ["nova_hosts"],
+    "cert": ["nova_hosts"],
+    "console": ["nova_hosts"],
+    "consoleauth": ["nova_hosts"],
+    "compute": ["nova_hosts"],
+    "zmq_replies": ["nova_hosts"]
 }

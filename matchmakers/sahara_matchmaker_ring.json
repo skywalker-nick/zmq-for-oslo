@@ -1,7 +1,4 @@
 {
-    "sahara-ops": ["sahara_host"],
-
-    "metering": ["ceilometer_host"],
-    "notifications-info": ["ceilometer_host"],
-    "notifications-error": ["ceilometer_host"]
+    "sahara-ops": ["sahara_hosts"],
+    "zmq_replies": ["sahara_hosts"]
 }
