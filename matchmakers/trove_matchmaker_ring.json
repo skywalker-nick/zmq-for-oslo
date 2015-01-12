@@ -1,0 +1,7 @@
+{
+    "trove": ["trove_hosts"],
+    "taskmanager": ["trove_hosts"],
+    "trove-conductor": ["trove_hosts"],
+    "guestagent": ["trove_hosts"],
+    "zmq_replies": ["trove_hosts"]
+}
